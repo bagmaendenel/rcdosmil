@@ -1,0 +1,268 @@
+@import '_colors.scss';
+@import '_header.scss';
+
+* {
+	margin:0;
+	padding:0;
+	text-shadow: none;
+	box-sizing:border-box;
+}	
+
+.noPadding {
+	padding:0px;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+	font-family: 'Roboto', sans-serif;
+	color:$text;
+}
+
+h1, h2, h3 {
+	font-size:1.5em;
+	line-height:30px;
+	color:$primary;
+}
+
+h4, h5 {
+
+}
+
+b {
+	color:$primary;
+	font-size:1.1em;
+}
+
+article {
+	font-size:1em;
+}
+
+a {
+	color:$primary;
+}
+
+a:hover {
+	color:$primary-dark;
+}
+
+/*Index*/
+.slider {
+	padding:0px;
+	margin:0px;
+	
+	#contentSlider {	
+		position:relative;
+		top:0px;
+		.item img{
+			width: 100%;
+			max-height:300px !important;
+		}
+	}
+}
+
+.content {
+	margin-top:20px;
+	line-height:28px;
+}
+
+.button {
+	color:white;
+	height:40px;
+	max-height:40px;
+	background-color:$primary-dark;
+	border:none;
+	transition: all 0.5s ease;
+	border:2px solid $primary;
+}
+
+.button:hover {
+	border:2px solid $primary;
+	color:$primary;
+	background-color:white;	
+}
+
+
+
+.footer {
+	margin:50px 0px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.index {
+	
+}
+
+.lessen {
+	hr {
+		margin:35px 0px;
+		border-top:1px solid $border-color;
+	}
+
+	.table {
+	  margin: 20px 0;
+	  border-collapse: collapse;
+	  border-spacing: 0;
+	}
+
+	.table th {
+	  border: 1px solid #e2e2e2;
+	  background: #fcfcfc url("../img/grad_menu.png") top left repeat-x;
+	  text-align: center;
+	  padding: 8px 14px;
+	  font-size: 14px;
+	  text-align: left;
+	  font-weight: 400;
+	}
+
+	.table td {
+	  padding: 8px 14px;
+	  border: #e2e2e2 1px solid;
+	  -webkit-transition: all 0.3s linear;
+	  -ms-transition: all 0.3s linear;
+	  -o-transition: all 0.3s linear;
+	  transition: all 0.3s linear;
+	}
+
+	.table tr.odd td {
+	  background: #f9f9f9;
+	}
+
+	.table tr:hover td {
+	  background: #edf9fa;
+	}
+
+	.table td.b {
+	  font-weight: 600;
+	}
+
+}
+
+
+
+.contact {
+	.feedback-input {
+		color: #3c3c3c;
+		border-radius: 0;
+		line-height: 22px;
+		background-color: #fbfbfb;
+		padding: 13px 13px 13px 54px;
+		margin-bottom: 10px;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 3px solid rgba(0, 0, 0, 0);
+	}
+
+	.feedback-input:focus {
+		background: #fff;
+		box-shadow: 0;
+		border: 2px solid #d32f2f !important;
+		outline: none;
+		padding: 13px 13px 13px 54px;
+	}
+
+	.focused {
+		color: #30aed6;
+		border: #30aed6 solid 3px;
+	}
+
+	.contactDetails {
+		list-style: none;
+	}
+
+	#name {
+		background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+		background-size: 30px 30px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+		border: 1px solid #b6b6b6;
+	}
+
+	#name:focus {
+		background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+		background-size: 30px 30px;
+		background-position: 8px 5px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+	}
+
+	#email {
+		background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+		background-size: 30px 30px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+		border: 1px solid #b6b6b6;
+	}
+
+	#email:focus {
+		background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+		background-size: 30px 30px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+	}
+
+	#comment {
+		background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+		background-size: 30px 30px;
+		background-position: 11px 8px;
+		background-repeat: no-repeat;
+		border: 1px solid #b6b6b6;
+	}
+
+	textarea {
+	  width: 100%;
+	  height: 150px;
+	  line-height: 150%;
+	  resize: vertical;
+	}
+
+	input:hover, textarea:hover,
+	input:focus, textarea:focus {
+	  background-color: white;
+	}
+	
+	.contactInfo {
+		text-align:center;
+		
+		img {
+			max-width:100%;
+		}
+		
+		span {
+			line-height:50px;
+		}
+	
+	
+	}
+}
+
+
+.usp {
+	display: inline-block;
+	width: 33.33333333%;
+	float: left;
+	position: relative;
+	padding: 15px;
+
+	p {
+		line-height:28px;
+	}
+}
+
+
+
+
+

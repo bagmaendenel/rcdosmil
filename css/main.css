@@ -1,0 +1,320 @@
+/* line 1, ../scss/_header.scss */
+.pagehead {
+  background-color: white;
+}
+
+/* line 5, ../scss/_header.scss */
+.logo {
+  position: relative;
+  top: 20px;
+  max-width: 85px;
+}
+
+/* line 11, ../scss/_header.scss */
+.header {
+  margin-top: 0px;
+  font-size: 15px;
+  line-height: 37px;
+  background-color: white;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 21, ../scss/_header.scss */
+.navbar {
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid #d32f2f;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 28, ../scss/_header.scss */
+.navbar .navbar-collapse, .navbar-default .navbar-form {
+  background-color: transparent;
+  border: none;
+}
+
+/* line 37, ../scss/_header.scss */
+.navbar .navbar-nav > .active > a {
+  color: #D32F2F;
+  background-color: transparent;
+  background-image: url("../img/up.png");
+  background-repeat: no-repeat;
+  background-position: 45px 43px;
+}
+
+/* line 46, ../scss/_header.scss */
+.navbar-default .navbar-nav > li {
+  text-align: center;
+  width: 100px;
+}
+
+/* line 51, ../scss/_header.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+/* line 55, ../scss/_header.scss */
+.navbar-default .navbar-nav > li > a {
+  font-weight: 600;
+  color: #D32F2F;
+}
+
+/* line 64, ../scss/_header.scss */
+.social {
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+}
+/* line 69, ../scss/_header.scss */
+.social img {
+  max-height: 20px;
+  margin-left: 5px;
+}
+
+/* line 4, ../scss/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+  box-sizing: border-box;
+}
+
+/* line 11, ../scss/main.scss */
+.noPadding {
+  padding: 0px;
+}
+
+/* line 15, ../scss/main.scss */
+body {
+  -webkit-text-size-adjust: none;
+  font-family: 'Roboto', sans-serif;
+  color: #727272;
+}
+
+/* line 21, ../scss/main.scss */
+h1, h2, h3 {
+  font-size: 1.5em;
+  line-height: 30px;
+  color: #d32f2f;
+}
+
+/* line 31, ../scss/main.scss */
+b {
+  color: #d32f2f;
+  font-size: 1.1em;
+}
+
+/* line 36, ../scss/main.scss */
+article {
+  font-size: 1em;
+}
+
+/* line 40, ../scss/main.scss */
+a {
+  color: #d32f2f;
+}
+
+/* line 44, ../scss/main.scss */
+a:hover {
+  color: #d32f2f;
+}
+
+/*Index*/
+/* line 49, ../scss/main.scss */
+.slider {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 53, ../scss/main.scss */
+.slider #contentSlider {
+  position: relative;
+  top: 0px;
+}
+/* line 56, ../scss/main.scss */
+.slider #contentSlider .item img {
+  width: 100%;
+  max-height: 300px !important;
+}
+
+/* line 63, ../scss/main.scss */
+.content {
+  margin-top: 20px;
+  line-height: 28px;
+}
+
+/* line 68, ../scss/main.scss */
+.button {
+  color: white;
+  height: 40px;
+  max-height: 40px;
+  background-color: #d32f2f;
+  border: none;
+  transition: all 0.5s ease;
+  border: 2px solid #d32f2f;
+}
+
+/* line 78, ../scss/main.scss */
+.button:hover {
+  border: 2px solid #d32f2f;
+  color: #d32f2f;
+  background-color: white;
+}
+
+/* line 86, ../scss/main.scss */
+.footer {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+/* line 108, ../scss/main.scss */
+.lessen hr {
+  margin: 35px 0px;
+  border-top: 1px solid #b6b6b6;
+}
+/* line 113, ../scss/main.scss */
+.lessen .table {
+  margin: 20px 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 119, ../scss/main.scss */
+.lessen .table th {
+  border: 1px solid #e2e2e2;
+  background: #fcfcfc url("../img/grad_menu.png") top left repeat-x;
+  text-align: center;
+  padding: 8px 14px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 400;
+}
+/* line 129, ../scss/main.scss */
+.lessen .table td {
+  padding: 8px 14px;
+  border: #e2e2e2 1px solid;
+  -webkit-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+/* line 138, ../scss/main.scss */
+.lessen .table tr.odd td {
+  background: #f9f9f9;
+}
+/* line 142, ../scss/main.scss */
+.lessen .table tr:hover td {
+  background: #edf9fa;
+}
+/* line 146, ../scss/main.scss */
+.lessen .table td.b {
+  font-weight: 600;
+}
+
+/* line 155, ../scss/main.scss */
+.contact .feedback-input {
+  color: #3c3c3c;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+/* line 169, ../scss/main.scss */
+.contact .feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 2px solid #d32f2f !important;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+/* line 177, ../scss/main.scss */
+.contact .focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px;
+}
+/* line 182, ../scss/main.scss */
+.contact .contactDetails {
+  list-style: none;
+}
+/* line 186, ../scss/main.scss */
+.contact #name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  border: 1px solid #b6b6b6;
+}
+/* line 194, ../scss/main.scss */
+.contact #name:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+/* line 202, ../scss/main.scss */
+.contact #email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  border: 1px solid #b6b6b6;
+}
+/* line 210, ../scss/main.scss */
+.contact #email:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+/* line 217, ../scss/main.scss */
+.contact #comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  border: 1px solid #b6b6b6;
+}
+/* line 225, ../scss/main.scss */
+.contact textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+/* line 233, ../scss/main.scss */
+.contact input:hover, .contact textarea:hover,
+.contact input:focus, .contact textarea:focus {
+  background-color: white;
+}
+/* line 237, ../scss/main.scss */
+.contact .contactInfo {
+  text-align: center;
+}
+/* line 240, ../scss/main.scss */
+.contact .contactInfo img {
+  max-width: 100%;
+}
+/* line 244, ../scss/main.scss */
+.contact .contactInfo span {
+  line-height: 50px;
+}
+
+/* line 253, ../scss/main.scss */
+.usp {
+  display: inline-block;
+  width: 33.33333333%;
+  float: left;
+  position: relative;
+  padding: 15px;
+}
+/* line 260, ../scss/main.scss */
+.usp p {
+  line-height: 28px;
+}

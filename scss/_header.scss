@@ -1,0 +1,77 @@
+.pagehead {
+	background-color:white;
+}
+
+.logo {
+	position:relative;
+	top:20px;
+	max-width:85px;
+}
+
+.header {
+	margin-top:0px;
+	font-size: 15px;
+	line-height:37px;
+	background-color:white;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+
+.navbar {
+	background-color:transparent;
+	border:none;
+	border-bottom:5px solid $primary;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+.navbar .navbar-collapse, .navbar-default .navbar-form {
+	background-color:transparent;
+	border:none;
+}
+
+
+
+
+
+.navbar .navbar-nav>.active>a {
+	color:#D32F2F;
+	background-color:transparent;
+	background-image: url("../img/up.png");
+	background-repeat: no-repeat; 
+	background-position: 45px 43px; 
+}
+
+
+.navbar-default .navbar-nav>li {
+	text-align:center;
+	width:100px; 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color:transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-weight:600;
+	color:#D32F2F;
+}
+
+
+
+
+
+.social {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+	
+	img {
+		max-height:20px;
+		margin-left:5px;
+	}
+}
+
+
+
+
